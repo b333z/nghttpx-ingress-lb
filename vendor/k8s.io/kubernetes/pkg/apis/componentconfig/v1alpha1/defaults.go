@@ -69,7 +69,7 @@ func SetDefaults_KubeProxyConfiguration(obj *KubeProxyConfiguration) {
 		obj.BindAddress = "0.0.0.0"
 	}
 	if obj.HealthzPort == 0 {
-		obj.HealthzPort = 10249
+		obj.HealthzPort = 11249
 	}
 	if obj.HealthzBindAddress == "" {
 		obj.HealthzBindAddress = "127.0.0.1"
